@@ -16,15 +16,31 @@ løsning til problemet er et automatiseret leaderboard, som løbende opdateres:
 
 - Et display ved siden af den store skærm
 - Mindre tabletter rundt omkring cafeén, kan monteres ved borderne og skrænten
-- Automatiseret data indsamling REST API --> SQL DATABASE
 
-  # Hvad vil fans se
+# Hvad vil fans se
 
 Ny opdateret leaderboard af top 5 hold i Premier League turneringen 
 
 - Hold navn, og Stilling
 - Kampe spillet
-- Vundet (W), 
+- Vundet (V), Tabte (T), Uafgjort (U)
+- Point (P)
+
+  # Mockup
+
+
+
+  # Data pipeline struktur
+
+  REST API → Python (Data Extraction) → Pandas (Transformation) → MySQL (Storage) → Frontend Display
+
+  Jeg har undværet UI, men kunne en fin videreudvikling på opgaven
+
+  # Resultat
+
+  ## SQL database
+
+  ## Python 
 
 
 
