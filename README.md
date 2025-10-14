@@ -27,18 +27,22 @@ Ny opdateret leaderboard af top 5 hold i Premier League turneringen
 - Point (P)
 
   # Mockup
+![alt text](assets/Images/mockup.png)
 
 
-
-  # Data pipeline struktur
+# Data pipeline struktur
 
   REST API → Python (Data Extraction) → Pandas (Transformation) → MySQL (Storage) → Frontend Display
 
-  Jeg har undværet UI, men kunne en fin videreudvikling på opgaven
+  Jeg har undværet UI, men det kunne være en fin videreudvikling på opgaven
 
-  # Resultat
+# Resultat
 
-  ## SQL database
+![alt text](assets/Images/SQL-syntaks.png)
+
+## SQL database
+
+![alt text](assets/Images/SQL-resultat.png)
 
   ## Python 
 
